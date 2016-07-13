@@ -6,32 +6,71 @@
 	<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 		<title>Linda-Yoga</title>
-	</head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+          
 
+<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Layout</title>
+      
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	</head>
+				<a id="top"></a>
 	<body>
-	
+	<!--NAVBAR FIXED-->
 		<header>
-			<h1 id="logo">LINDA-YOGA</h1>
+					
+			<div class="container-nav">
+				<div class="logo">
+					<a href="#top">
+						LINDA-YOGA
+					</a>
+				</div>
+					<div class="nav">
+						<ul>
+							<li><a href="#about">About</a></li>
+							<li><a href="#">Classes</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div>
+			</div>
+			<div class="sub-heading">
+					<h2>Welcome to the amazing world of Yoga</h2>
+			</div>
 		</header>
 		
+
+			
 		<div class="container">
 		<section>	
-			<h2 class="welcome">Welcome to the amazing world of Yoga</h2>
+
+			<h3 id="about">A bit about me and what I do</h3>
+			<br>
 	   		        <p>
 		   		        I have been teaching yoga since 1979 having trained with the <a href="http://www.bwy.org.uk/">British Wheel of Yoga</a> and <a href="https://www.yogaalliance.org/">Friends of Yoga International</a>. It has been a real joy to teach people of all ages to a wide variety of groups. That is the amazing thing about Yoga &#45; it can be practised and enjoyed no matter what your age, background or ability.
 		   		    
 				        The word <b>Yoga</b> means Union &#40;yoke&#41; and is an ancient discipline.
 			        </p>
+			        <br>
 			        <p><img src="images/chakra.png" id="chakra"></p>
 			        <p>
-			            Hatha yoga combines
+			            Hatha yoga combines&colon;
 			        </p>
+			        <br>
 		        <ul>
 		            <li>Movement &#40;asana&#41;</li>
 		            <li>Breath control &#40;pranayama&#41;</li>
 		            <li>Concentration</li>
 		            <li>Deep relaxation</li>
 		        </ul>
+		        <br>
 			        <p>
 				        With regular practice it brings suppleness, strength and stamina to the body. At the same time it concentrates, relaxes and stills the mind.
 			        </p>
@@ -40,7 +79,7 @@
 			        </p>
 						<br>
 
-				<h2>Hatha Yoga</h2>
+				<h3>Hatha Yoga</h3>
 		            <p>
 			            The practice of yoga is an art and science dedicated to creating union between body, mind and spirit. Its objective is to assist the practitioner in using the breath and body to nurture an awareness of ourselves intimately connected to the unified creation. It is about making balance within so as to live in peace, good health and harmony with the greater whole. This art of living was perfected and practiced in India thousands of years ago and the foundations of yoga philosophy were written down in The Yoga Sutra of Patanjali, approximately 200 AD. This sacred text describes the inner workings of the mind and provides an eight-step blueprint for controlling its restlessness so as to enjoying lasting inner peace.
 		            </p>
@@ -54,7 +93,7 @@
        		
                 	<p><img src="images/8branches.png" id="branches"></p>
                 	
-            	<h2>The eight limbs of yoga</h2>
+            	<h3>The eight limbs of yoga</h3>
             	
 	            <ul>
 	                <li><b>Yama</b>&#58; universal morality</li>
@@ -68,7 +107,7 @@
 
 	               
             			<br>
-            <h2>Health Benefits</h2>
+            <h3>Health Benefits</h3>
 
 		            <p>
 			            Yoga's combined focus on mindfulness, breathing and physical movements brings health benefits with regular participation. Yoga participants report better sleep, increased energy levels and muscle tone, relief from muscle pain and stiffness, improved circulation and overall better general health. The breathing aspect of yoga can benefit heart rate and blood pressure.
@@ -80,4 +119,21 @@
 			<footer>&copy; 2016 Linda Ward</footer>
 
 	</body>
+
+	<!--SMOOTH SCROLL JAVASCRIPT-->
+
+	<script>$(document).ready(function(){
+	$('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash;
+	    var $target = $(target);
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 900, 'swing', function () {
+	        window.location.hash = target;
+	    });
+	});
+});</script>
 </html>
