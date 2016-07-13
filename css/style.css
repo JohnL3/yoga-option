@@ -101,6 +101,10 @@ header {
 color: darkgray;
 	text-decoration: none;	
 }
+.container-nav .logo a:visited {
+color: #fff;
+	text-decoration: none;	
+}
 .container-nav a:visited {
 	color: #fff;
 	text-decoration: none;
