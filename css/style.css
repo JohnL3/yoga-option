@@ -101,14 +101,6 @@ header {
 	text-decoration: none;
 }
 
-.container-nav .logo a:hover {
-color: darkgray;
-	text-decoration: none;	
-}
-.container-nav .logo a:visited {
-color: #fff;
-	text-decoration: none;	
-}
 .container-nav a:visited {
 	color: #fff;
 	text-decoration: none;
@@ -117,6 +109,24 @@ color: #fff;
 .container-nav a:link {
 	text-decoration: none;
 	color: #fff;
+}
+
+.container-nav a:active {
+	text-decoration: none;
+	color: #fff;
+}
+
+.container-nav a:hover {
+color: darkgray;
+	text-decoration: none;	
+}
+.logo a:visited {
+color: #fff;
+	text-decoration: none;	
+}
+
+.container-nav .logo a:hover {
+	color: darkgray;
 }
 
 /*********************IMAGES*********************/
