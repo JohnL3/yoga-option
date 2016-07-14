@@ -64,9 +64,11 @@ header {
 	color: #fff;	
 }
 .arrow {
+	opacity: 0.5;
+	display: inline-block;
 	position: absolute;
-	top: 14em;
-	left: 18em;
+	top: 15em;
+	left: 47.5%;
 }
 
 
