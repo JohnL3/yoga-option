@@ -57,12 +57,20 @@ header {
 	background: linear-gradient(#bc4007, transparent 70%),
 				linear-gradient(0deg, #fff, transparent 60%),
 				url('../images/Banner-1.jpg') no-repeat center;
+				
 	background-size: cover;
 	margin-top: 0;
 	padding: 60px 0px;
-	color: #fff;
-	
+	color: #fff;	
 }
+.arrow {
+	position: absolute;
+	top: 14em;
+	left: 18em;
+}
+
+
+
 /*********Nav-Bar position and styling*********/
 .container-nav {
 	width: 100%;
