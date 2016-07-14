@@ -63,13 +63,15 @@ header {
 	padding: 60px 0px;
 	color: #fff;	
 }
+
 .arrow {
-	opacity: 0.5;
+	opacity: 0.3;
 	display: inline-block;
 	position: absolute;
 	top: 15em;
 	left: 47.5%;
 }
+
 
 
 
@@ -136,6 +138,7 @@ color: #fff;
 .container-nav .logo a:hover {
 	color: darkgray;
 }
+
 
 /*********************IMAGES*********************/
 
