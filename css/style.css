@@ -5,11 +5,13 @@
 *{
 	margin: 0;
 	/*padding: 0;*/
+	box-sizing: border-box;
 }
-a {
+* .container-nav a {
 	color: #fff;
 	text-decoration: none;
 }
+
 
 /*********************BODY*********************/
 
@@ -19,6 +21,7 @@ body {
 	margin: 0;
 	
 }
+
 
 
 /*********************SUB-HEADING*********************/
@@ -96,11 +99,6 @@ header {
 /*********************LINKS*********************/
 
 
-.container-nav li a:hover {
-	color: darkgray;
-	text-decoration: none;
-}
-
 .container-nav a:visited {
 	color: #fff;
 	text-decoration: none;
@@ -157,8 +155,12 @@ footer {
 	color: #706c6c;
 	text-shadow: -2px -1px 4px #fff;
 	text-align: center;
-	padding: 20px;
+	padding: .5em;
 	background: linear-gradient(0deg, #474545, white 85%);
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+	height: 2em;
 }
 
 @media (max-width: 680px) {
