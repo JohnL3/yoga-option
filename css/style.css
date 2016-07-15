@@ -161,6 +161,26 @@ color: #fff;
 
 
 
+/*********************CLASS TABLE*********************/
+
+#class-table {
+	border: darkgray 2px solid;
+	background-color: lightyellow;
+}
+th {
+	padding: 4px;
+	border: darkgray 1px solid;
+	background-color: #ffffcc;
+}
+td {
+	padding: 4px;
+	border-right:  darkgray 1px solid;
+	border-top: darkgray 1px solid
+}
+
+
+
+
 
 /*********************FOOTER*********************/
 
