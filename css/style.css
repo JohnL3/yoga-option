@@ -44,7 +44,7 @@ h2 {
 /*********************MAIN CONTAINER*********************/
 
 .container {
-	width: 80%;
+	width: 95%;
 	margin: auto;
 }
 
@@ -141,18 +141,23 @@ color: #fff;
 
 
 /*********************IMAGES*********************/
-
+.img-div{
+    width: 100%;
+    padding: 15px;
+}
 #chakra {
-	float: right;
+	display: block;
+    margin: 0 auto;
 }
 #branches {
-	float: left;
-	max-width: 30%;
-	padding-right: 50px;
+	float: none;
+		max-width: 70%;
+		align-content: center;
 }
 
 #stretch {
-	float: right;
+    width:80%;
+	float: none;
 }
 
 /*********************PARAGRAPH ALIGNMENT*********************/
@@ -199,28 +204,28 @@ footer {
 	height: 2em;
 }
 
-@media (max-width: 680px) {
+@media (min-width: 680px) {
 	.container {
-		width: 95%;
+		width: 80%;
 		border: 0;
 		padding: 0;
 	}
-	ul {
-		clear: both;
-		display: block;
-	}
+
 	#stretch {
 		width: 80%;
-		float: none;
+		float: right;
 	}
 	#branches {
-		float: none;
-		max-width: 70%;
-		align-content: center;
+		float: left;
+		max-width: 30%;
+		padding: 15px;
 	}
 	#chakra {
 		max-width: 80%;
-		margin: auto;
-		display: block;
+        float: right;
+       
 	}
+    .img-div{
+        width: 100%;
+    }
 	}
